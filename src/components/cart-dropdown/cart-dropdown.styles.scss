@@ -1,0 +1,41 @@
+$colorBlack: #000;
+
+.cart-dropdown{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 240px;
+    height: 340px; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid $colorBlack;
+    z-index: 5;
+
+    span.empty-message{
+        font-size: 16px;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    .cart-items{
+        height: 240px;
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    button{
+        margin-top: auto;
+        background-color: $colorBlack;
+        padding: 7px 15px;
+        border: none;
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        
+    }
+}

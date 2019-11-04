@@ -1,0 +1,39 @@
+.sign-in {
+    width: 40%;
+
+    h2 {
+        font-size: 25px;
+        padding: 10px 0;
+        text-transform: capitalize;
+    }
+
+    span {
+        font-size: 14px;
+    }
+
+    input {
+        display: block;
+        margin: 15px 0;
+        max-width: 100%;
+        height: 40px;
+        border-radius: 0;
+    }
+
+    .google-sign-in {
+        background-color: #4285f4;
+        color: #fff;
+
+        &:hover {
+            border: none;
+            background-color: #357ae8;
+        }
+    }
+
+    .btn--container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+}

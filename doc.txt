@@ -1,0 +1,39 @@
+Section #4 Home Page [ pages ]
+    
+    [ components ]
+    - menu-item [ function component ]
+    - dirctory [ class component ]
+
+Section #5 Router Pages
+    --- react router dom
+        - BrowzerRouter
+        - Switch
+        - Route [ exact - path - component ]
+        - match - location - history [ props ]
+        - Link - NavLink - to
+        - history => push(path)
+        - withRouter used access to [ match - location - history ]
+
+Section #6 Forms Component 
+
+    -- create shop pages [ class ]
+    -- create collection-preview component [ function component ]
+    -- create collection-item [ item { name, title, image, price } ]
+    -- create data-collection [ js ]
+    -- create header component
+    -- create signin and signup page
+    -- create sign in component [ form - handleSubmit - handleChange ]
+    -- custom input form
+    -- custom button
+
+Section #7 Firebase Auth 
+
+    -- install firbase 
+    -- connect react project with firebase
+    -- use auth library and firestore library
+    -- auth with google auth
+    -- signOut() => used to logOut account
+    -- check found user
+
+
+

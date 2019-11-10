@@ -13,7 +13,6 @@ export const store = createStore(rootReducer, applyMiddleware(...middlewares));
 export const persiststore = persistStore(store);
 
 // export default {store, persiststore};
-
 // export default store;
 
 

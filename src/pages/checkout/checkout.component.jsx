@@ -6,6 +6,8 @@ import { cartItemsSelector, CartItemsTotalPrice } from '../../redux/cart/cart.se
 
 import { removeItemFromCart } from '../../redux/cart/cart.action';
 
+import StripeButton from '../../components/button-payment/stripe.component'; // component stripe button
+
 import './checkout.styles.scss';
 
 const CheckoutPage = ({ CartItems, CartItemsTotalPrice, removeItem }) => (
@@ -36,6 +38,11 @@ const CheckoutPage = ({ CartItems, CartItemsTotalPrice, removeItem }) => (
             </tbody>
         </table>
             <h1 className="total-price"> TOTAL : ${ CartItemsTotalPrice } </h1>
+
+            <div className="stripe__button">
+                <StripeButton price={CartItemsTotalPrice} />
+                <p> used Data test: 42424 42424 4242 42424 - EXP: 01/20 CVV: 123 </p>
+            </div>
     </div>
 )
 
